@@ -1,0 +1,6 @@
+{% load i18n %}
+<h3>{% blocktrans with filter_title=title %} By {{ filter_title }} {% endblocktrans %}</h3>
+<form id="numeric-filter-{{ title|slugify }}" class="numeric-field-filter-form" data-field="{{ title|slugify }}">
+    <input class="numeric-filter-min" type="number"> to <input class="numeric-filter-max" type="number">
+    <button type="submit">Go</button>
+</form>
