@@ -18,7 +18,7 @@ setup(
     author_email='omerkorner@gmail.com',
     url='https://github.com/jbkkd/django-numericfieldlistfilter',
     classifiers=[
-        'Development Status :: 4 - Alpha',
+        'Development Status :: 4 - Beta',
         'Intended Audience :: Developers',
         'Topic :: Software Development :: Libraries :: Python Modules',
         'License :: OSI Approved :: MIT License',

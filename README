@@ -9,7 +9,7 @@ For each numeric field, two inputs will be added to the admin, representing a mi
 ### Installation
 
 ```sh
-$ pip install djangonumericfieldlistfilter
+$ pip install django-numericfieldlistfilter
 ```
 
 You'll need Django version 1.8 or greater.
