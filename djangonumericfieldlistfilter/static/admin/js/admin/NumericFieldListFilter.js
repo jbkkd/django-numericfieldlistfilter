@@ -15,8 +15,8 @@ function updateQueryStringParameter(url, key, value) {
             e.preventDefault();
             var $this = $(this);
             var field = $this.data('field').replace('-', '_');
-            var $min_input = $this.children('.numeric-filter-min');
-            var $max_input = $this.children('.numeric-filter-max');
+            var $min_input = $this.children('.numeric-filter.min');
+            var $max_input = $this.children('.numeric-filter.max');
             var min_value = $min_input.val();
             var max_value = $max_input.val();
             var location = window.location.pathname;

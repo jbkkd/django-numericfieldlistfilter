@@ -9,4 +9,8 @@ class NumericModelAdmin(ModelAdmin):
         media = super(NumericModelAdmin, self).media
         js = media._js
         js.append(static('admin/js/admin/NumericFieldListFilter.js'))
-        return forms.Media(js=js)
+        css = {
+            'screen': [static('admin/css/admin/NumericFieldListFilter.css')]
+        }
+
+        return forms.Media(js=js, css=css)

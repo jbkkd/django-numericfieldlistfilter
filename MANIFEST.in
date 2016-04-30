@@ -1,0 +1,4 @@
+include LICENSE
+include README
+recursive-include djangonumericfieldlistfilter/static *
+recursive-include djangonumericfieldlistfilter/templates *

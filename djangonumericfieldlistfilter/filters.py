@@ -13,3 +13,6 @@ class NumericFieldListFilter(FieldListFilter):
 
     def expected_parameters(self):
         return [self.lookup_kwarg, self.lookup_kwarg2]
+
+    def choices(self, cl):
+        return []
