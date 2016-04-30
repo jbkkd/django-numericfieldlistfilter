@@ -44,5 +44,5 @@ You'll need Django version 1.8 or greater.
 0.1
 
 License
-----
+-------
 MIT
