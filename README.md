@@ -32,6 +32,7 @@ You'll need Django version 1.8 or greater.
         ...
     ```
 3. Add your numeric field to the list_filter variable:
+
     ```python
     list_filter = (
         ...
